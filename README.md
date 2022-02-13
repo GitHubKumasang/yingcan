@@ -2,20 +2,25 @@
 
 著作：频道：大自然の搬运工   著作人：TT
 
-更多教程、资源、好用文件加入频道 ：》点我进入《  
+更多教程、资源、好用文件加入频道 ：》[点我进入频道](https://t.me/banyun12138)《  （需要你给浏览器挂上梯子）
 
 ● 【隐藏应用列表】安装刷入教程：
 
-1、 选择下好的【隐藏应用列表V2.3.2】APK安装包进行安装。=》点我下载
+1、 选择下好的【隐藏应用列表V2.3.2】APK安装包进行安装。=》[点我下载](https://banyun12138.lanzouq.com/iHJAFyopa5i)
 
-2、 再下载【应用列表检测器V1.3.2】进行后面检测用。=》点我下载
+2、 再下载【应用列表检测器V1.3.2】进行后面检测用。=》[点我下载](https://banyun12138.lanzouq.com/imRn4yopbmb)
 
 3、 进入【LSPosed】点击【隐藏应用列表】，勾选【系统框架】，重启手机。
+![image(3)](https://user-images.githubusercontent.com/97335538/153760936-340f150e-514b-4cd1-8165-03a8dbe6fd9a.png)
+
 
 
 4、 然后打开【应用隐藏列表】选择【安装Magisk插件】，安装后重启手机，成功了就会提示已激活模块，插件已安装，到这步隐藏应用模块即可使用了。
+
 Tip：点提示的时候会出现两个，一个Riru，一个Zygisk，根据你的面具版本来选择
-面具版本23.0或以下选Riru，24.0或以上选择Zygisk
+
+面具版本23.0或以下选Riru       24.0或以上选择Zygisk
+![image(4)](https://user-images.githubusercontent.com/97335538/153761016-8d2278fb-4b2e-42dc-8a92-ccfbce4f9520.png)
 
 
 Tip：最新版隐藏应用列表V2.3.2，需要在面具里移除原来旧的插件，然后在APP里安装新插件
@@ -56,30 +61,57 @@ magisk，lsposed，xposed，qnotifed，qn_dyn_lib,libqn_mmkv（最新版已经�
 
 应用列表检测器异常解决方案：
 1、 「xposed hooks」
+
 解答：这个是环境异常导致的，具体原因很多，很多都是模块导致的
+
 处理：隐藏应用模块里不要打钩应用列表检测器，如果不行用排除法一个个排除，挨个关闭模块挨个检测，可以去查看你需要隐藏的应用，在某个模块的作用域里把他取消掉。
+
 2、 「XPrivacyLua」
+
 解答：是XPrivacyLua这个模块导致的，如果没有就是有残留文件夹
+
 处理：去MT管理器找到并删除/data/system/xlua文件夹，如果红的话就卸载XPrivacyLua这个模块再删除文件夹。
+
 3、 「Thanox」
+
 解答：是Thanox这个模块导致的，如果没有就是有残留文件夹
+
 处理：去MT管理器找到并删掉/data/system/Thanos文件夹，红的话就卸载Thanox这个模块再删文件夹了。
+
 4、 「com.topjohnwu.magisk」
+
 解答：这个是面具没隐藏
+
 处理：在隐藏应用列表模块，黑名单模板里添加面具软件即可。
+
 5、 「magisk random package name」
+
 解答：这个是随机包名后的面具没隐藏
+
 处理：在隐藏应用列表模块，黑名单模板里添加随机包名后的面具软件即可。
+
 6、 「org.lsposed.manager」
+
 解答：这个是LSPosed导致的，基本上是用的版本低，或者没有创建使用寄生管理器
+
 处理：最好卸载更新LSPosed，创建寄生管理器，或者冻结LSPosed，但是不推荐。
+
 7、 「xposed modules」
+
 解答：这里是你用的xp模块没有隐藏导致的
+
 处理：看到全红的名字都是模块，把显示名字的模块都在隐藏应用列表的模板里添加进去并生效即可。
+
 8、 「org.meowcat.edxposed」
+
 解答：这是你手机里的exposed导致的
+
 处理：卸载你的exposed
+
 9、 「HMA（old version）」
+
 解答：隐藏应用列表模块版本过老
+
 处理：更新隐藏应用列表模块
+
 10、 
